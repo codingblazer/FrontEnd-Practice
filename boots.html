@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Bootstrap Demo</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css" integrity="sha384-Zug+QiDoJOrZ5t4lssLdxGhVrurbmBWopoEl+M6BdEfwnCJZtKxi1KgxUyJq13dy" crossorigin="anonymous">
+	<style type="text/css">
+		.btn-success{
+			background-color: orange;
+		}
+	</style>
+</head>
+<body>
+	<div class="container">
+	<h1>Bootstrap Basics</h1>
+	<BUTTON class="btn btn-success btn-lg">Click me</BUTTON> <!-- //This bbutton is cutomized on top of bootstrap to have orange background => see styles for code -->
+	<a href="https://www.youtube.com" class="btn btn-info btn-lg">This is youtube</a>
+
+	<div class="jumbotron">
+		<h1>This is jumbo</h1>
+		<p>fewubeuwie ncuiewce</p>
+		<button class="btn btn-success btn-lg"></button>
+	</div>
+
+	<form> <!-- can do class ="form-inline" for inline forms-->
+  <div class="form-group">
+    <label for="exampleInputEmail1">Email address</label>
+    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+    <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+  </div>
+  <div class="form-group">
+    <label for="exampleInputPassword1">Password</label>
+    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+  </div>
+  <div class="form-check">
+    <input type="checkbox" class="form-check-input" id="exampleCheck1">
+    <label class="form-check-label" for="exampleCheck1">Check me out</label>
+  </div>
+  <button type="submit" class="btn btn-primary">Submit</button>
+</form>
+
+
+ </div>
+</body>
+</html>
+
+
+<!-- the jumbotron takes up the full screen width => if we put it inside a another bootstrap class called container, it will soround it. The continer class doesn't take full width because it has margins on both side => anything inside container will take width of the container as done above. -->
+
+<!-- If you see in form code, we have 2 main classes - 
+1) form control => If you see,the code for form inputs are exactly same like we learnt earlier...by adding just this class in our earlier code, the input becomes bootstrapified i.e. rounded corners, etc
+2) form group => this is kind of (for+ id) but in terms of desgin i.e. in bootstrap design, by telling bootstrap that label email and textbox email are grouped => the appearance is made such that these 2 group items are closer to give appearanc of grouping  -->
+
+

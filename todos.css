@@ -1,0 +1,38 @@
+ul + p {
+	color: green;
+}
+li{
+	border: 2px solid red;
+}
+
+#special {  /*id selector*/
+	background: yellow;
+}
+
+.completed{  /*class selector*/ 
+	text-decoration: line-through;
+}
+
+/*attribute selector 
+apply the css properties to all the a tags which have attribute value i.e. href value = google.com*/
+a[href="www.google.com"]{
+	color: red;
+}
+
+/*star selector applies the given propertly to every element in html */
+*{
+	background-color: #EEFFFF;
+}
+
+/*descendent selector means => for every a tag "inside" li tags apply given property */
+/*it has variants like 1) p li a {....} => multiple nested 2) li #special 3) li .completed, etc*/
+li a {
+	border: 2px dashed #FFFFFF;
+}
+
+/*this picks the nth i.e 2nd here => 2nd li element and applies property to it */
+/*if we have 3 ul with li => below will select 2nd li from each ul and apply the property*/
+li:nth-of-type(2){
+	background: purple;
+}
+

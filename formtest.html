@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Form Exercise</title>
+</head>
+<body>
+<form action="www.fb.com" method="GET">
+<p>
+	<label>First Name:
+		<input type="text" name="fname" placeholder="John" required>
+	</label>
+	
+
+	<label>Last Name:
+		<input type="text" name="lname" placeholder="Smith" required>
+	</label>
+</p>
+<p>
+	<label>Male <input type="radio" name="gender" value="male">
+	</label>
+	
+	<label>Female <input type="radio" name="gender" value="female">
+	</label>
+
+	<label>Other <input type="radio" name="gender" value="other">
+	</label>
+</p>
+<p>
+	<label>Email: <input type="email" name="mail" placeholder="your email" required></label>
+
+	<label>Password: <input type="Password" placeholder="your Password" 
+		pattern=".{1,5}" title="between 1 to 5" name="pass" required></label>
+</p>
+<p>
+	<label>Birthday:
+		<select  name="Month">
+			<option>Month </option>
+			<option value="January">Jan</option>
+			<option value="Febuary">Feb</option>
+			<option value="March">March</option>
+		</select>
+
+		<select placeholder="Day" name="Day">
+			<option>Day</option>
+			<option>1</option>
+			<option>2</option>
+			<option>3</option>
+		</select>
+
+		<select placeholder="Year" name="Year">
+			<option>Year</option>
+			<option>2000</option>
+			<option>2001</option>
+			<option>2002</option>
+			<option>2003</option>
+			<option>2004</option>
+			<option>2005</option>
+		</select>
+	</label>
+</p>
+
+<p>
+	I agree to the terms and conditions
+	<input type="checkbox" name="terms">
+</p>
+<BUTTON>Submit</BUTTON>
+</form>
+</body>
+</html>

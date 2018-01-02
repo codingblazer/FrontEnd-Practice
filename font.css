@@ -1,0 +1,21 @@
+
+body{
+	font-size: 10px;
+}
+p{
+	font-family: "Arial"; /*use quotes if your font starts with numeric*/
+	font-size: 2.0em;  /*em is relative => whatever is outside it => body here => it will take size x times the size of enclosing eleement i.e. body => 20 px here*/
+	font-weight: bold;
+	font-weight: 100; /*can be value between 100 to 800 but only hundreds*/
+	line-height: 2; /*tells the spacing betweem the lines */
+}
+
+h1{
+	text-align: right;
+	text-decoration: underline;
+	font-family: 'Gloria Hallelujah', cursive;
+}
+
+p{
+	font-family: 'Open Sans', sans-serif; 
+}
